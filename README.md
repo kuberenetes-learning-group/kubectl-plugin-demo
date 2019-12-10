@@ -3,7 +3,7 @@
 ## 使用方式
 
 ```bash
-curl -O https://github.com/kuberenetes-learning/kubectl-plugin-demo/master/kubectl-foo
+curl -O https://raw.githubusercontent.com/kuberenetes-learning/kubectl-plugin-demo/master/kubectl-foo
 sudo chmod +x ./kubectl-foo
 
 sudo mv ./kubectl-foo /usr/local/bin
