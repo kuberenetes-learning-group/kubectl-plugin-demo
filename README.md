@@ -13,9 +13,11 @@ kubectl foo
 
 ## Kubectl Plugin
 
-### 编写
+### Kebernetes源码解析
 
-要求：
+参考 [source_code.md](source_code.md)
+
+### 要求
 
 1. 可执行文件
 2. 名称以`kubectl-`开头,命令以`-`来分割，比如`kubectl gpu version`的可执行文件名称是`kubectl-gpu-version`。命令名称中如果包含`-`，用`_`表示，比如`kubectl gpu-version`的可执行文件名称是`kubectl-gpu_version`
